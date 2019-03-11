@@ -1,0 +1,76 @@
+a:link{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: arial,sans-serif;
+	display: inline-block;
+    line-height: 24px;
+    font-size: 13px;
+    padding-right: 20px;
+}
+a:visited {
+    text-decoration: none;
+} 
+a:hover{
+	text-decoration: underline;
+}
+#SI {
+	background-color: #0000FF;
+	color: white;
+	height: 24px;
+	width: 60px;
+	padding: 3px;
+	border-radius: 3px;
+	vertical-align: center;
+	font-weight: bold;
+}
+.menu{
+
+	text-align: right;
+}
+.main{
+	text-align: center;
+}
+.logo{
+	padding-top: 130px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+input[type="text"]{
+	border: 1px solid #dfe1e5;
+	border-radius: 25px;
+	margin: 0 auto;
+    margin-top: -20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+	height: 44px;
+	width: 482px;
+}
+input:hover{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    border-top-color: rgba(223, 225, 229, 0);
+    border-right-color: rgba(223, 225, 229, 0);
+    border-bottom-color: rgba(223, 225, 229, 0);
+    border-left-color: rgba(223, 225, 229, 0);
+}
+input[type="submit"]{
+	color: buttontext;
+    background-color: buttonface;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	margin: 11px 4px;
+	height: 36px;
+    line-height: 27px;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	
+}
+input[type="submit"]:focus{
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+
+}
